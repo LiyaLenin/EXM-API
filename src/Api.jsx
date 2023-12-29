@@ -37,7 +37,7 @@ function Api() {
                         <p>{detail.height}</p>
                 </div>
             </div>
-            <Button onClick={()=>setRandomId(Math.floor(Math.random() * (30 - 1 + 1)) + 1)} variant="success">Get New User</Button>
+            <Button onClick={()=>setRandomId(Math.floor(Math.random() * (30 - 1 + 1)) + 1)} variant="success">REFRESH</Button>
         </Col>
         <Col className='d-flex flex-column    mt-3 '>
             <div className='mb-5'>
