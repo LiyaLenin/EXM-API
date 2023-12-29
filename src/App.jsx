@@ -1,5 +1,5 @@
 import './App.css'
-import ApiFetch from './ApiFetch'
+import Api from './Api'
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
      <div style={{height:'100vh'}} className='d-flex justify-content-center align-items-center '>
       
         <div style={{width:'700px',height:'700px'}} className='bg-info shadow rounded rounded-3'>
-        <ApiFetch/>
+        <Api/>
         </div>
      </div>
     </>

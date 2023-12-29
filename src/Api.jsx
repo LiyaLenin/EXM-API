@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 import { Button, Col, Row } from 'react-bootstrap'
 
 
-function ApiFetch() {
+function Api() {
     const [data,setData]=useState([])
     const [randomId,setRandomId]=useState(Math.floor(Math.random() * (30 - 1 + 1)) + 1)
     useEffect(()=>{
@@ -66,4 +66,4 @@ function ApiFetch() {
   )
 }
 
-export default ApiFetch
+export default Api
